@@ -1,0 +1,60 @@
+.header {
+  z-index: 3;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 4rem;
+  background-color: var(--body-background);
+  transition: var(--transition);
+}
+
+.headerScrolled {
+  box-shadow: var(--box-shadow);
+}
+
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.logo img {
+  width: 70px;
+  filter: opacity(80%);
+}
+
+.telephone {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.telephone svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--grey);
+}
+
+.telephone p {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 574px) {
+  .header {
+    padding: 1.5rem 2rem;
+  }
+
+  .logo img {
+    width: 50px;
+  }
+
+  .telephone {
+    gap: .5rem;
+  }
+}

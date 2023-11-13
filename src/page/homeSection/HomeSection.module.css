@@ -1,0 +1,93 @@
+.section {
+  padding: 8rem 4rem;
+  background-color: #0577a6;
+  position: relative;
+  overflow: hidden;
+}
+
+.burgerImage {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 300px;
+  opacity: 0.1;
+  transform: translateX(-30%);
+  pointer-events: none;
+}
+
+.meatImage {
+  position: absolute;
+  bottom: 0;
+  right: 2rem;
+  width: 166px;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  animation: var(--animation-fade-in-translate);
+}
+
+.primaryTitle {
+  font-size: 8rem;
+  font-weight: 700;
+  color: #a8e259;
+  text-shadow: -2px 0px 3px rgba(0, 0, 0, 0.62);
+}
+
+.secondaryTitle {
+  font-size: 4rem;
+  color: var(--white);
+  margin-top: 1.5rem;
+  width: 70%;
+}
+
+.paragraph {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #0577a6;
+  background-color: var(--white);
+  padding: .5rem 2rem;
+  border-radius: var(--border-radius);
+  width: max-content;
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 1074px) {
+  .primaryTitle {
+    font-size: 7rem;
+  }
+
+  .secondaryTitle {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .section {
+    padding: 0 2rem 8rem;
+  }
+
+  .burgerImage {
+    width: 200px;
+  }
+
+  .meatImage {
+    width: 86px;
+  }
+
+  .container {
+    padding: 8rem 0 0;
+  }
+
+  .primaryTitle {
+    font-size: 4.8rem;
+  }
+
+  .secondaryTitle {
+    font-size: 2.4rem;
+    width: 90%;
+  }
+}

@@ -1,0 +1,37 @@
+.button {
+  font-size: 2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 1rem;
+  background: #0577a6;
+  color: var(--white);
+  padding: 2rem 4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: max-content;
+  transition: var(--transition);
+  margin-top: 1rem;
+}
+
+.button:hover {
+  opacity: .85;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  fill: var(--white);
+  transition: var(--transition);
+}
+
+.button:hover .arrow {
+  transform: translateX(5px);
+}
+
+@media screen and (max-width: 574px) {
+  .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
