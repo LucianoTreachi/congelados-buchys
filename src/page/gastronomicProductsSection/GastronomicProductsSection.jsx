@@ -23,6 +23,7 @@ export default function GastronomicProductsSection() {
                 className={styles.cardImage}
                 src={product.image}
                 alt="Imagen de producto"
+                loading="lazy"
               />
               <div className={styles.cardTitles}>
                 <h3 className={styles.cardTitle}>{product.title}</h3>
