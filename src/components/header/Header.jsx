@@ -29,7 +29,7 @@ export default function Header() {
     >
       <nav className={styles.nav}>
         <a className={styles.logo} href="/">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" width={306} height={214} />
         </a>
 
         <a

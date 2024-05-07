@@ -17,11 +17,15 @@ export default function HomeSection() {
         className={styles.burgerImage}
         src={burgerImage}
         alt="Imagen de hamburguesa que se ve en el fondo"
+        width={512}
+        height={512}
       />
       <img
         className={styles.meatImage}
         src={meatImage}
         alt="Imagen de carne que se ve en el fondo"
+        width={512}
+        height={512}
       />
     </section>
   );

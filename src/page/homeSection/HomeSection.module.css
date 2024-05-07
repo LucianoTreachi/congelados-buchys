@@ -9,7 +9,8 @@
   position: absolute;
   top: 1rem;
   left: 1rem;
-  width: 300px;
+  width: 20%;
+  height: auto;
   opacity: 0.1;
   transform: translateX(-30%);
   pointer-events: none;
@@ -17,9 +18,10 @@
 
 .meatImage {
   position: absolute;
-  bottom: 0;
+  bottom: 1rem;
   right: 2rem;
-  width: 166px;
+  width: 12%;
+  height: auto;
   opacity: 0.2;
   pointer-events: none;
 }
@@ -49,7 +51,7 @@
   font-weight: 500;
   color: #0577a6;
   background-color: var(--white);
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
   border-radius: var(--border-radius);
   width: max-content;
   margin-top: 4rem;
@@ -68,14 +70,6 @@
 @media screen and (max-width: 574px) {
   .section {
     padding: 0 2rem 8rem;
-  }
-
-  .burgerImage {
-    width: 200px;
-  }
-
-  .meatImage {
-    width: 86px;
   }
 
   .container {
