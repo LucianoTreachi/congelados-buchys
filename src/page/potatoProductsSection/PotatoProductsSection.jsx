@@ -14,6 +14,8 @@ export default function PotatoProductsSection() {
           className={styles.marker}
           src={markerImage}
           alt="Subrayado de título"
+          width={120}
+          height={56}
         />
         <div className={styles.row}>
           {dataPotatoProducts.map((product) => (
@@ -23,6 +25,8 @@ export default function PotatoProductsSection() {
                 className={styles.cardImage}
                 src={product.image}
                 alt="Imagen de producto"
+                width={960}
+                height={540}
                 loading="lazy"
               />
               <div className={styles.cardTitles}>
