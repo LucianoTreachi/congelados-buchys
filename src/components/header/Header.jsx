@@ -3,20 +3,7 @@ import logo from "../../assets/logo.png";
 import styles from "./Header.module.css";
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false);
   const [isHeaderScrolled, setHeaderScrolled] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
-  const scrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-    toggleMenu();
-  };
 
   const handleScroll = () => {
     if (window.scrollY > 100) {
