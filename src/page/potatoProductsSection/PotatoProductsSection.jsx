@@ -14,7 +14,6 @@ export default function PotatoProductsSection() {
         <div className={styles.row}>
           {dataPotatoProducts.map((product) => (
             <div className={styles.card} key={product.id}>
-              <span className={styles.category}>{product.category}</span>
               <div className={styles.top}>
                 <img
                   className={styles.cardImage}

@@ -14,7 +14,6 @@ export default function FreezerProductsSection() {
         <div className={styles.row}>
           {dataFreezerProducts.map((product) => (
             <div className={styles.card} key={product.id}>
-              <span className={styles.category}>{product.category}</span>
               <div className={styles.top}>
                 <img
                   className={styles.cardImage}

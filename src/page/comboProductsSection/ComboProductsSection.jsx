@@ -14,7 +14,6 @@ export default function ComboProductsSection() {
         <div className={styles.row}>
           {dataComboProducts.map((product) => (
             <div className={styles.card} key={product.id}>
-              <span className={styles.category}>{product.category}</span>
               <div className={styles.top}>
                 <img
                   className={styles.cardImage}
