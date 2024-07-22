@@ -30,10 +30,18 @@
   filter: opacity(80%);
 }
 
+.logo img:hover {
+  filter: opacity(60%);
+}
+
 .telephone {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.telephone:hover {
+  opacity: .8;
 }
 
 .telephone svg {

@@ -1,17 +1,18 @@
 .button {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 500;
   border: none;
   border-radius: 1.2rem;
   background: #0577a6;
+  box-shadow: 0px 8px 16px -3px #0577a630;
   color: var(--white);
   padding: 1.4rem 4rem;
   display: flex;
   align-items: center;
   gap: 1rem;
-  width: max-content;
   transition: var(--transition);
   margin-top: 1rem;
+  width: max-content;
 }
 
 .button:hover {
@@ -29,8 +30,15 @@
   transform: translateX(5px);
 }
 
+@media screen and (max-width: 885px) {
+  .button {
+    padding: 1.4rem;
+  }
+}
+
 @media screen and (max-width: 574px) {
   .button {
+    font-size: 1.6rem;
     width: 100%;
     justify-content: center;
   }
