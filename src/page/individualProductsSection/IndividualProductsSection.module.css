@@ -17,14 +17,17 @@
 .card {
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
-  padding: 2rem;
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .category {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
   width: max-content;
   padding: 0.5rem 1rem;
   border-radius: var(--border-radius);
@@ -38,13 +41,13 @@
   width: 100%;
   height: auto;
   display: block;
-  border-radius: var(--border-radius);
 }
 
 .cardTitle {
   font-size: 2.2rem;
   font-weight: 700;
   line-height: 1.3em;
+  margin-bottom: 0.5rem;
 }
 
 .cardSubtitle {
@@ -52,13 +55,22 @@
   font-weight: 500;
   line-height: 1.4em;
   opacity: 0.75;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 2rem;
 }
 
 .content {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 0.3rem;
+  flex-grow: 1;
+  margin-bottom: 2rem;
 }
 
 .content span {

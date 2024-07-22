@@ -37,19 +37,22 @@
   font-weight: 700;
   color: #a8e259;
   text-shadow: -2px 0px 3px rgba(0, 0, 0, 0.62);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
 }
 
 .secondaryTitle {
   font-size: 4rem;
+  font-weight: 400;
   color: var(--white);
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   width: 70%;
 }
 
 .paragraph {
   font-size: 2rem;
   font-weight: 500;
-  color: #0577a6;
+  color: #021d29;
   background-color: var(--white);
   padding: 0.5rem 2rem;
   border-radius: var(--border-radius);

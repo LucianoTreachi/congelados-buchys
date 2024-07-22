@@ -2,10 +2,10 @@
   font-size: 2rem;
   font-weight: 500;
   border: none;
-  border-radius: 1rem;
+  border-radius: 1.2rem;
   background: #0577a6;
   color: var(--white);
-  padding: 2rem 4rem;
+  padding: 1.4rem 4rem;
   display: flex;
   align-items: center;
   gap: 1rem;
