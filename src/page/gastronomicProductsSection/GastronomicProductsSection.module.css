@@ -3,10 +3,6 @@
   margin: auto;
 }
 
-.marker {
-  transform: translateY(-10px);
-}
-
 .row {
   margin-top: 4rem;
   display: grid;
