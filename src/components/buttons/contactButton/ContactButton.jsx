@@ -5,7 +5,7 @@ export default function ContactButton() {
     <a
       className={styles.button}
       href="https://api.whatsapp.com/send?phone=3516747745&text=¡Hola Congelados Buchys!"
-      aria-label="Consultar al teéfono 3516747745"
+      aria-label="Consultar al teléfono 3516747745"
       target="_blank"
       rel="noreferrer"
     >
