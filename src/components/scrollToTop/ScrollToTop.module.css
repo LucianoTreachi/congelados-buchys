@@ -4,7 +4,7 @@
   bottom: 3rem;
   width: 5rem;
   height: 5rem;
-  background-color: #0056b3;
+  background-color: var(--accent);
   color: var(--white);
   border: none;
   border-radius: 50%;

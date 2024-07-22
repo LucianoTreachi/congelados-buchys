@@ -2,8 +2,6 @@
 
 :root {
   /* Fonts */
-  --title-font: 'Merriweather',
-    serif;
   --global-font: 'Roboto',
     sans-serif;
 
@@ -11,9 +9,8 @@
   --white: #FFFFFF;
   --black: #101010;
   --grey: #585a5c;
-  --color-1: #313ef3;
+  --accent: #0577a6;
   --body-background: #F0F0F0;
-  --button-background: #5471fd;
 
   /* Border Radius & Box Shadow */
   --border-radius: 1.5rem;

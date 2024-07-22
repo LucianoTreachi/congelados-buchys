@@ -1,6 +1,6 @@
 .section {
   padding: 8rem 4rem;
-  background-color: #0577a6;
+  background-color: var(--accent);
   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   position: relative;
   overflow: hidden;
