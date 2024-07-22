@@ -25,7 +25,7 @@
 }
 
 .logo img {
-  width: 25%;
+  width: 70px;
   height: auto;
   filter: opacity(80%);
 }
@@ -59,7 +59,19 @@
     padding: 1.5rem 2rem;
   }
 
+  .logo img {
+    width: 50px;
+  }
+
+  .logo img:hover {
+    filter: opacity(80%);
+  }
+
   .telephone {
     gap: 0.5rem;
+  }
+
+  .telephone:hover {
+    opacity: 1;
   }
 }
