@@ -18,7 +18,7 @@ export default function FreezerProductsSection() {
                 <img
                   className={styles.cardImage}
                   src={product.image}
-                  alt="Imagen de producto"
+                  alt=""
                   width={960}
                   height={540}
                   loading="lazy"
