@@ -36,7 +36,7 @@ export default function Header() {
 
         <a
           href="https://api.whatsapp.com/send?phone=3516747745"
-          aria-label="Comunicarse al teléfono 3516747745"
+          aria-label="Teléfono: 3516747745."
           target="_blank"
           rel="noreferrer"
         >
