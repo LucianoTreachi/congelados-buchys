@@ -1,11 +1,12 @@
 import styles from "./ContactButton.module.css";
 
-export default function ContactButton() {
+export default function ContactButton({ariaLabel}) {  
+  console.log(ariaLabel)
   return (
     <a
       className={styles.button}
       href="https://api.whatsapp.com/send?phone=3516747745&text=¡Hola Congelados Buchys!"
-      aria-label="Consultar al teléfono 3516747745"
+      aria-label={ariaLabel}
       target="_blank"
       rel="noreferrer"
     >

@@ -30,7 +30,7 @@ export default function ComboProductsSection() {
                   <h4 className={styles.cardSubtitle}>{product.subtitle}</h4>
                 </div>
                 <div className={styles.content}>{product.description}</div>
-                <ContactButton />
+                <ContactButton ariaLabel={`Consultar por el producto ${product.title}`}/>
               </div>
             </div>
           ))}
