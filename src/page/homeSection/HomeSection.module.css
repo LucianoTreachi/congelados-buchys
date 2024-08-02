@@ -51,14 +51,14 @@
 }
 
 .paragraph {
+  margin-top: 4rem;
+  display: inline-block;
   font-size: 2rem;
   font-weight: 500;
   color: #021d29;
   background-color: var(--white);
   padding: 0.5rem 2rem;
   border-radius: var(--border-radius);
-  width: max-content;
-  margin-top: 4rem;
 }
 
 @media screen and (max-width: 1074px) {

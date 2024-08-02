@@ -11,19 +11,19 @@ export default function HomeSection() {
           Distribuidor mayorista y minorista. Ofrecemos una amplia gama de
           productos.
         </h2>
-        <p className={styles.paragraph}>¡Envío sin cargo!</p>
+        <span className={styles.paragraph}>¡Envío sin cargo!</span>
       </div>
       <img
         className={styles.burgerImage}
         src={burgerImage}
-        alt="Imagen de hamburguesa que se ve en el fondo"
+        alt=""
         width={512}
         height={512}
       />
       <img
         className={styles.meatImage}
         src={meatImage}
-        alt="Imagen de carne que se ve en el fondo"
+        alt=""
         width={512}
         height={512}
       />
