@@ -12,7 +12,7 @@ export const dataPotatoProducts = [
           <span>Marca:</span> McCain
         </p>
         <p>
-          <span>Peso neto:</span> 2.5KG
+          <span>Peso neto:</span> 2.5kg
         </p>
       </>
     ),
@@ -31,7 +31,7 @@ export const dataPotatoProducts = [
           <span>Marca:</span> McCain
         </p>
         <p>
-          <span>Peso neto:</span> 2.5KG
+          <span>Peso neto:</span> 2.5kg
         </p>
       </>
     ),
@@ -50,7 +50,7 @@ export const dataPotatoProducts = [
           <span>Marca:</span> McCain
         </p>
         <p>
-          <span>Peso neto:</span> 1.5KG
+          <span>Peso neto:</span> 1.5kg
         </p>
       </>
     ),

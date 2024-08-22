@@ -1,18 +1,18 @@
-import { dataComboProducts } from "../../data/dataComboProducts";
+import { dataBreadsProducts } from "../../data/dataBreadsProducts";
 import Section from "../../components/section/Section";
 import TitleSection from "../../components/titleSection/TitleSection";
 import TitleMarker from "../../components/titleMarker/TitleMarker";
 import ContactButton from "../../components/buttons/contactButton/ContactButton";
-import styles from "./ComboProductsSection.module.css";
+import styles from "./BreadsProductsSection.module.css";
 
-export default function ComboProductsSection() {
+export default function BreadsProductsSection() {
   return (
-    <Section id="combo-products">
+    <Section id="breads-products">
       <div className={styles.container}>
-        <TitleSection content="Combos para Fiestas y Eventos" />
+        <TitleSection content="Panes" />
         <TitleMarker />
         <div className={styles.row}>
-          {dataComboProducts.map((product) => (
+          {dataBreadsProducts.map((product) => (
             <div className={styles.card} key={product.id}>
               <div className={styles.top}>
                 <img
@@ -25,10 +25,8 @@ export default function ComboProductsSection() {
                 />
               </div>
               <div className={styles.bottom}>
-                <div className={styles.cardTitles}>
-                  <h3 className={styles.cardTitle}>{product.title}</h3>
-                  <h4 className={styles.cardSubtitle}>{product.subtitle}</h4>
-                </div>
+                <h3 className={styles.cardTitle}>{product.title}</h3>
+                <h4 className={styles.cardSubtitle}>{product.subtitle}</h4>
                 <div className={styles.content}>{product.description}</div>
                 <ContactButton
                   ariaLabel={`Consultar por el producto ${product.title}`}

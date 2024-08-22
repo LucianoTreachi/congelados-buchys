@@ -1,31 +1,10 @@
-import { useEffect, useState } from "react";
 import logo from "../../assets/logo.png";
 import styles from "./Header.module.css";
 
 export default function Header() {
-  const [isHeaderScrolled, setHeaderScrolled] = useState(false);
-
-  const handleScroll = () => {
-    if (window.scrollY > 100) {
-      setHeaderScrolled(true);
-    } else {
-      setHeaderScrolled(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
     <header
-      className={`${styles.header} ${
-        isHeaderScrolled ? styles.headerScrolled : ""
-      }`}
+      className={styles.header}
     >
       <nav className={styles.nav}>
         <a className={styles.logo} href="/">

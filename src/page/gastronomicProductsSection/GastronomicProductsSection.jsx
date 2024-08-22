@@ -7,7 +7,7 @@ import styles from "./GastronomicProductsSection.module.css";
 
 export default function GastronomicProductsSection() {
   return (
-    <Section>
+    <Section id="gastronomic-products">
       <div className={styles.container}>
         <TitleSection content="Productos para el Rubro Gastronómico" />
         <TitleMarker />
@@ -28,7 +28,9 @@ export default function GastronomicProductsSection() {
                 <h3 className={styles.cardTitle}>{product.title}</h3>
                 <h4 className={styles.cardSubtitle}>{product.subtitle}</h4>
                 <div className={styles.content}>{product.description}</div>
-                <ContactButton ariaLabel={`Consultar por el producto ${product.title}`}/>
+                <ContactButton
+                  ariaLabel={`Consultar por el producto ${product.title}`}
+                />
               </div>
             </div>
           ))}

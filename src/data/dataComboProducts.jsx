@@ -5,7 +5,7 @@ export const dataComboProducts = [
     image:
       "https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1699447069/congelados-buchys/combo1_ppigmf.jpg",
     title: "Combo Hamburguesas",
-    subtitle: "Panes de papa + aderezos + hamburguesas de 83g c/u",
+    subtitle: "Panes de papa + aderezos + hamburguesas de 83g",
     description: (
       <>
         <p>
@@ -27,7 +27,7 @@ export const dataComboProducts = [
     image:
       "https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1699447069/congelados-buchys/combo2_ztepzy.jpg",
     title: "Combo Hamburguesas ¡Gigantes!",
-    subtitle: "Panes de papa + aderezos + hamburguesas de 120g c/u",
+    subtitle: "Panes de papa + aderezos + hamburguesas de 120g",
     description: (
       <>
         <p>

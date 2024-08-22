@@ -12,7 +12,7 @@ export const dataIndividualProducts = [
           <span>Marca:</span> Beltran
         </p>
         <p>
-          <span>Peso neto:</span> 240g (60g cada hamburguesa)
+          <span>Peso neto:</span> 240 gramos (60 gramos cada hamburguesa)
         </p>
       </>
     ),
@@ -31,7 +31,7 @@ export const dataIndividualProducts = [
           <span>Marca:</span> Beltran
         </p>
         <p>
-          <span>Peso neto:</span> 334g (83g cada hamburguesa)
+          <span>Peso neto:</span> 334 gramos (83 gramos cada hamburguesa)
         </p>
       </>
     ),
@@ -50,7 +50,7 @@ export const dataIndividualProducts = [
           <span>Marca:</span> Beltran Mark
         </p>
         <p>
-          <span>Peso neto:</span> 480g (120g cada hamburguesa)
+          <span>Peso neto:</span> 480 gramos (120 gramos cada hamburguesa)
         </p>
       </>
     ),
@@ -69,7 +69,7 @@ export const dataIndividualProducts = [
           <span>Marca:</span> Beltran
         </p>
         <p>
-          <span>Peso neto:</span> 1KG (125g cada milanesa)
+          <span>Peso neto:</span> 1kg (125 gramos cada milanesa)
         </p>
       </>
     ),
@@ -88,7 +88,7 @@ export const dataIndividualProducts = [
           <span>Marca:</span> La Coruña
         </p>
         <p>
-          <span>Peso neto:</span> 240g (60g cada hamburguesa)
+          <span>Peso neto:</span> 240 gramos (60 gramos cada hamburguesa)
         </p>
       </>
     ),

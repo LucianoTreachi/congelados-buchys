@@ -12,7 +12,7 @@ export const dataFreezerProducts = [
           <span>Marca:</span> Beltran Mark
         </p>
         <p>
-          <span>Peso neto:</span> 4KG
+          <span>Peso neto:</span> 4kg
         </p>
       </>
     ),
@@ -31,7 +31,7 @@ export const dataFreezerProducts = [
           <span>Marca:</span> Beltran Mark
         </p>
         <p>
-          <span>Peso neto:</span> 2.6KG
+          <span>Peso neto:</span> 2.6kg
         </p>
       </>
     ),
@@ -50,7 +50,7 @@ export const dataFreezerProducts = [
           <span>Marca:</span> Beltran
         </p>
         <p>
-          <span>Peso neto:</span> 2.5KG (83g cada hamburguesa)
+          <span>Peso neto:</span> 2.5kg (83 gramos cada hamburguesa)
         </p>
       </>
     ),
@@ -69,7 +69,7 @@ export const dataFreezerProducts = [
           <span>Marca:</span> Beltran
         </p>
         <p>
-          <span>Peso neto:</span> 5KG (83g cada hamburguesa)
+          <span>Peso neto:</span> 5kg (83 gramos cada hamburguesa)
         </p>
       </>
     ),
@@ -88,7 +88,7 @@ export const dataFreezerProducts = [
           <span>Marca:</span> Beltran
         </p>
         <p>
-          <span>Peso neto:</span> 3.6KG (60g cada hamburguesa)
+          <span>Peso neto:</span> 3.6kg (60 gramos cada hamburguesa)
         </p>
       </>
     ),
@@ -107,7 +107,7 @@ export const dataFreezerProducts = [
           <span>Marca:</span> Beltran
         </p>
         <p>
-          <span>Peso neto:</span> 4.8KG (120g cada hamburguesa)
+          <span>Peso neto:</span> 4.8kg (120 gramos cada hamburguesa)
         </p>
       </>
     ),
@@ -126,7 +126,7 @@ export const dataFreezerProducts = [
           <span>Marca:</span> La Coruña
         </p>
         <p>
-          <span>Peso neto:</span> 3.6KG (50g cada hamburguesa)
+          <span>Peso neto:</span> 3.6kg (50 gramos cada hamburguesa)
         </p>
       </>
     ),
@@ -152,7 +152,7 @@ export const dataFreezerProducts = [
     category: "En cantidad",
     image:
       "https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1699447889/congelados-buchys/freezer9_c12chp.jpg",
-    title: "Patitas de Pollo x 5KG",
+    title: "Patitas de Pollo por 5kg",
     subtitle: "Ideal para tu familia",
     description: (
       <>
@@ -160,7 +160,7 @@ export const dataFreezerProducts = [
           <span>Marca:</span> Grangys
         </p>
         <p>
-          <span>Peso neto:</span> 5KG
+          <span>Peso neto:</span> 5kg
         </p>
       </>
     ),
