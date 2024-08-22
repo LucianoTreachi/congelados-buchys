@@ -8,7 +8,7 @@ export const dataDessertProducts = [
     subtitle: "Sabor chocolate con leche y chocolate amargo ¡Deliciosos!",
     description: (
       <>
-        <p>Si llevas solo este producto la compra mínima son 6 potes.</p>
+        <p>* Si llevas solo este producto la compra mínima son 6 potes.</p>
       </>
     ),
   },
