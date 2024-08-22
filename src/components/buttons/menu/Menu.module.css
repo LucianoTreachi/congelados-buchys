@@ -31,3 +31,13 @@
   border: 1px solid var(--accent);
   background-color: var(--white);
 }
+
+@media screen and (max-width: 574px) {
+  .containerMenu {
+    right: 0;
+  }
+
+  .button {
+    border-radius: 1.5rem 0 0 1.5rem;
+  }
+}

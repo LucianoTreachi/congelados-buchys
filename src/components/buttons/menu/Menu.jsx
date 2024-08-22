@@ -48,6 +48,7 @@ const Menu = () => {
             aria-label="Categoría de productos"
             onChange={handleSelectChange}
           >
+            <option value="">Productos</option>
             <option value="combo-products">Combos</option>
             <option value="freezer-products">En cantidad</option>
             <option value="individual-products">Individuales</option>
