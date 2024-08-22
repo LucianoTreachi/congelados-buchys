@@ -51,7 +51,8 @@ li {
 
 input,
 textarea,
-button {
+button,
+select {
   font-family: inherit;
   color: inherit;
 }

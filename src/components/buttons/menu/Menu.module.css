@@ -25,10 +25,10 @@
 
 .select {
   margin-bottom: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
   font-size: 1.5rem;
-  border-radius: var(--border-radius);
-  border: 1px solid var(--accent);
+  border-radius: 1.2rem;
+  border: 2px solid var(--accent);
   background-color: var(--white);
 }
 
@@ -39,5 +39,14 @@
 
   .button {
     border-radius: 1.5rem 0 0 1.5rem;
+  }
+
+  .button:hover {
+    opacity: 1;
+  }
+
+  .select {
+    border-radius: 1.5rem 0 0 1.5rem;
+    border-width: 2px 0 2px 2px;
   }
 }
