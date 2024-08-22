@@ -49,9 +49,6 @@ export const dataGastronomicProducts = [
         <p>
           <span>Marca:</span> Beltran Mark
         </p>
-        <p>
-          <span>Peso neto:</span> 5kg
-        </p>
       </>
     ),
   },
@@ -61,15 +58,12 @@ export const dataGastronomicProducts = [
     category: "Gastronómico",
     image:
       "https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1699447627/congelados-buchys/gastronomic3_xopvph.jpg",
-    title: "Caja de Patitas de Pollo",
+    title: "Caja de Patitas de Pollo, 5kg",
     subtitle: "Excelente opción para abastecer tu negocio",
     description: (
       <>
         <p>
           <span>Marca:</span> Grangys
-        </p>
-        <p>
-          <span>Peso neto:</span> 5kg
         </p>
       </>
     ),

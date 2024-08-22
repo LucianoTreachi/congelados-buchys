@@ -9,7 +9,7 @@ export const dataBreadsProducts = [
     description: (
       <>
         <p>
-          <span>18</span> Unidades
+          <span>70</span> Unidades
         </p>
       </>
     ),
@@ -25,7 +25,7 @@ export const dataBreadsProducts = [
     description: (
       <>
         <p>
-          <span>18</span> Unidades
+          <span>70</span> Unidades
         </p>
       </>
     ),
@@ -84,7 +84,7 @@ export const dataBreadsProducts = [
     category: "Panes",
     image:
       "https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1724332804/congelados-buchys/breads6_vlqo14.jpg",
-    title: "Pebetón",
+    title: "Pebetón (24cm)",
     subtitle: "Exquisitos panes esponjosos",
     description: (
       <>
