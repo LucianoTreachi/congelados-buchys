@@ -15,8 +15,7 @@ const Menu = () => {
     }
   };
 
-  const handleSelectChange = (event) => {
-    const sectionId = event.target.value;
+  const handleLinkClick = (sectionId) => {
     const sectionElement = document.getElementById(sectionId);
     if (sectionElement) {
       sectionElement.scrollIntoView({ behavior: "smooth" });
@@ -36,27 +35,57 @@ const Menu = () => {
     <>
       <div ref={menuRef} className={styles.containerMenu}>
         <button
-          className={styles.button}
+          className={styles.menuButton}
           aria-label="Menú"
           onClick={toggleSelectVisibility}
         >
           Menu
         </button>
         {isSelectVisible && (
-          <select
-            className={styles.select}
-            aria-label="Categoría de productos"
-            onChange={handleSelectChange}
-          >
-            <option value="">Productos</option>
-            <option value="combo-products">Combos</option>
-            <option value="freezer-products">En cantidad</option>
-            <option value="individual-products">Individuales</option>
-            <option value="gastronomic-products">Gastronómico</option>
-            <option value="breads-products">Panes</option>
-            <option value="potato-products">Papas</option>
-            <option value="dessert-products">Postres</option>
-          </select>
+          <div className={styles.list}>
+            <button
+              className={styles.listButton}
+              onClick={() => handleLinkClick("combo-products")}
+            >
+              Combos
+            </button>
+            <button
+              className={styles.listButton}
+              onClick={() => handleLinkClick("freezer-products")}
+            >
+              En cantidad
+            </button>
+            <button
+              className={styles.listButton}
+              onClick={() => handleLinkClick("individual-products")}
+            >
+              Individuales
+            </button>
+            <button
+              className={styles.listButton}
+              onClick={() => handleLinkClick("gastronomic-products")}
+            >
+              Gastronómico
+            </button>
+            <button
+              className={styles.listButton}
+              onClick={() => handleLinkClick("breads-products")}
+            >
+              Panes
+            </button>
+            <button
+              className={styles.listButton}
+              onClick={() => handleLinkClick("potato-products")}
+            >
+              Papas
+            </button>
+            <button
+              className={styles.listButton}
+              onClick={() => handleLinkClick("dessert-products")}
+            >
+              Postres
+            </button>
+          </div>
         )}
       </div>
     </>

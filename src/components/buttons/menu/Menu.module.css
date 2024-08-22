@@ -8,7 +8,7 @@
   align-items: flex-end;
 }
 
-.button {
+.menuButton {
   padding: 1rem 2rem;
   background-color: var(--accent);
   color: var(--white);
@@ -19,17 +19,34 @@
   cursor: pointer;
 }
 
-.button:hover {
+.menuButton:hover {
   opacity: 0.8;
 }
 
-.select {
+.list {
   margin-bottom: 1rem;
   padding: 1rem;
   font-size: 1.5rem;
   border-radius: 1.2rem;
   border: 2px solid var(--accent);
   background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+.listButton {
+  background: transparent;
+  border: 0;
+  border-radius: 1.2rem;
+  padding: 1rem 1rem;
+  width: 100%;
+  font-size: 1.6rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.listButton:hover {
+  background: #ccc;
 }
 
 @media screen and (max-width: 574px) {
@@ -37,15 +54,15 @@
     right: 0;
   }
 
-  .button {
+  .menuButton {
     border-radius: 1.5rem 0 0 1.5rem;
   }
 
-  .button:hover {
+  .menuButton:hover {
     opacity: 1;
   }
 
-  .select {
+  .list {
     border-radius: 1.5rem 0 0 1.5rem;
     border-width: 4px 0 4px 4px;
   }
