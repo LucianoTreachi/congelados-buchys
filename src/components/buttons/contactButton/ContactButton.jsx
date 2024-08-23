@@ -1,7 +1,6 @@
 import styles from "./ContactButton.module.css";
 
-export default function ContactButton({ariaLabel}) {  
-  console.log(ariaLabel)
+export default function ContactButton({ ariaLabel }) {
   return (
     <a
       className={styles.button}

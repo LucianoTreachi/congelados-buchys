@@ -1,4 +1,4 @@
-import Menu from "../../components/buttons/menu/Menu";
+import MenuButton from "../../components/buttons/menuButton/MenuButton";
 
 import HomeSection from "../homeSection/HomeSection";
 import InfoSection from "../infoSection/InfoSection";
@@ -14,7 +14,7 @@ import DessertProductsSection from "../dessertProductsSection/DessertProductsSec
 export default function Main() {
   return (
     <main>
-      <Menu />
+      <MenuButton />
       <HomeSection />
       <InfoSection />
       <ComboProductsSection />

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import styles from "./Menu.module.css";
+import styles from "./MenuButton.module.css";
 
-const Menu = () => {
+const MenuButton = () => {
   const [isSelectVisible, setIsSelectVisible] = useState(false);
   const menuRef = useRef(null);
 
@@ -49,36 +49,42 @@ const Menu = () => {
             >
               Combos
             </button>
+            <hr />
             <button
               className={styles.listButton}
               onClick={() => handleLinkClick("freezer-products")}
             >
               En cantidad
             </button>
+            <hr />
             <button
               className={styles.listButton}
               onClick={() => handleLinkClick("individual-products")}
             >
               Individuales
             </button>
+            <hr />
             <button
               className={styles.listButton}
               onClick={() => handleLinkClick("gastronomic-products")}
             >
               Gastronómico
             </button>
+            <hr />
             <button
               className={styles.listButton}
               onClick={() => handleLinkClick("breads-products")}
             >
               Panes
             </button>
+            <hr />
             <button
               className={styles.listButton}
               onClick={() => handleLinkClick("potato-products")}
             >
               Papas
             </button>
+            <hr />
             <button
               className={styles.listButton}
               onClick={() => handleLinkClick("dessert-products")}
@@ -92,4 +98,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default MenuButton;
