@@ -4,7 +4,7 @@ export const dataPotatoProducts = [
     category: "Papas",
     image:
       "https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1699447532/congelados-buchys/potatos1_qvr9v5.jpg",
-    title: "Papas Bastón (Corte Tradicional)",
+    title: "Papas Bastón",
     subtitle: "Una complementación perfecta para tu comida",
     description: (
       <>
