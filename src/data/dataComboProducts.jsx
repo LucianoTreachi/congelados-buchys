@@ -53,7 +53,7 @@ export const dataComboProducts = [
     description: (
       <>
         <p>
-          <span>60</span> Unidades
+          <span>72</span> Unidades
         </p>
         <p>
           <span>48</span> Unidades
