@@ -136,23 +136,8 @@ export const dataFreezerProducts = [
     id: 8,
     category: "En cantidad",
     image:
-      "https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1699447889/congelados-buchys/freezer8_rr7ec9.jpg",
-    title: "Caja de 12 Empanadas Chinas",
-    subtitle: "Ideal para tu familia",
-    description: (
-      <>
-        <p>Sabor carne y sabor vegetales</p>
-        <p>¡Deliciosas!</p>
-      </>
-    ),
-  },
-
-  {
-    id: 9,
-    category: "En cantidad",
-    image:
       "https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1699447889/congelados-buchys/freezer9_c12chp.jpg",
-    title: "Patitas de Pollo por 5kg",
+    title: "Caja de Patitas de Pollo, 5kg",
     subtitle: "Ideal para tu familia",
     description: (
       <>
@@ -165,4 +150,19 @@ export const dataFreezerProducts = [
       </>
     ),
   },
+
+  {
+    id: 9,
+    category: "En cantidad",
+    image:
+      "https://res.cloudinary.com/dwqk2mkgh/image/upload/f_auto,q_auto/v1699447889/congelados-buchys/freezer8_rr7ec9.jpg",
+    title: "Caja de 12 Empanadas Chinas",
+    subtitle: "Ideal para tu familia",
+    description: (
+      <>
+        <p>Sabor carne y sabor vegetales</p>
+        <p>* Si llevas solo este producto la compra mínima son 2 cajas</p>
+      </>
+    ),
+  },  
 ];

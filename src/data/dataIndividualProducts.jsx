@@ -8,7 +8,7 @@ export const dataIndividualProducts = [
     subtitle: "120 gramos cada hamburguesa",
     description: (
       <>
-        <p>* Si llevas solo este producto la compra mínima son 10 cajas</p>
+        <p>* Si llevas solo este producto la compra mínima son 5 cajas</p>
       </>
     ),
   },
@@ -64,7 +64,7 @@ export const dataIndividualProducts = [
     subtitle: "1kg (125 gramos cada milanesa)",
     description: (
       <>
-        <p>* Si llevas solo este producto la compra mínima son 10 cajas</p>
+        <p>* Si llevas solo este producto la compra mínima son 2 cajas</p>
       </>
     ),
   },
