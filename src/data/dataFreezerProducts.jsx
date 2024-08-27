@@ -161,7 +161,7 @@ export const dataFreezerProducts = [
     description: (
       <>
         <p>Sabor carne y sabor vegetales</p>
-        <p>* Si llevas solo este producto la compra mínima son 2 cajas</p>
+        <p>* Si llevas solo este producto la compra mínima son 2 cajas.</p>
       </>
     ),
   },  
