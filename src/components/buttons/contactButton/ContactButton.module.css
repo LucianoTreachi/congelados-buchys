@@ -33,13 +33,13 @@
 
 @media screen and (max-width: 885px) {
   .button {
-    padding: 1.8rem 1.6rem;
+    padding: 2rem 1.6rem;
   }
 }
 
 @media screen and (max-width: 574px) {
   .button {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     width: 100%;
     justify-content: center;
   }
