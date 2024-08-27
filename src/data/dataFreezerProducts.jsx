@@ -141,8 +141,8 @@ export const dataFreezerProducts = [
     subtitle: "Ideal para tu familia",
     description: (
       <>
-        <p>Sabor carne y saber vegetales</p>
-        <p>¡Deliciososas!</p>
+        <p>Sabor carne y sabor vegetales</p>
+        <p>¡Deliciosas!</p>
       </>
     ),
   },
