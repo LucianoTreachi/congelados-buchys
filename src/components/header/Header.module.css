@@ -19,16 +19,6 @@
   margin-right: auto;
 }
 
-.logo img {
-  width: 70px;
-  height: auto;
-  filter: opacity(80%);
-}
-
-.logo img:hover {
-  filter: opacity(60%);
-}
-
 .telephone {
   display: flex;
   align-items: center;
@@ -52,14 +42,6 @@
 @media screen and (max-width: 574px) {
   .header {
     padding: 1.5rem 2rem;
-  }
-
-  .logo img {
-    width: 50px;
-  }
-
-  .logo img:hover {
-    filter: opacity(80%);
   }
 
   .telephone {

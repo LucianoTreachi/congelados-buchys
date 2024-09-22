@@ -1,0 +1,11 @@
+.logoImage {
+  width: 70px;
+  height: auto;
+  filter: opacity(80%);
+}
+
+@media screen and (max-width: 574px) {
+  .logoImage {
+    width: 50px;
+  }
+}

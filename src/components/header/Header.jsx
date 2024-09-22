@@ -1,17 +1,13 @@
-import logo from "../../assets/logo.png";
+import Logo from "../logo/Logo";
 import styles from "./Header.module.css";
 
 export default function Header() {
   return (
-    <header
-      className={styles.header}
-    >
+    <header className={styles.header}>
       <nav className={styles.nav}>
-        <a className={styles.logo} href="/">
-          <div>
-            <img src={logo} alt="Logo" width={306} height={214} />
-          </div>
-        </a>
+        <div className={styles.logo}>
+          <Logo />
+        </div>
 
         <a
           href="https://api.whatsapp.com/send?phone=3516747745"
