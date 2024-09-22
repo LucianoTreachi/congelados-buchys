@@ -1,18 +1,18 @@
-import { dataPotatoProducts } from "../../data/dataPotatoProducts";
+import { dataComboProducts } from "../../data/dataComboProducts";
 import Section from "../../components/section/Section";
 import TitleSection from "../../components/titleSection/TitleSection";
 import TitleMarker from "../../components/titleMarker/TitleMarker";
 import ProductCard from "../../components/productCard/ProductCard";
-import styles from "./PotatoProductsSection.module.css";
+import styles from "./ProductSections.module.css";
 
-export default function PotatoProductsSection() {
+export default function ComboProductsSection() {
   return (
-    <Section id="potato-products">
+    <Section id="combo-products">
       <div className={styles.container}>
-        <TitleSection content="Papas" />
+        <TitleSection content="Combos para Fiestas y Eventos" />
         <TitleMarker />
         <div className={styles.row}>
-          {dataPotatoProducts.map((product) => (
+          {dataComboProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>

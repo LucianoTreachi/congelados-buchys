@@ -1,18 +1,18 @@
-import { dataFreezerProducts } from "../../data/dataFreezerProducts";
+import { dataGastronomicProducts } from "../../data/dataGastronomicProducts";
 import Section from "../../components/section/Section";
 import TitleSection from "../../components/titleSection/TitleSection";
 import TitleMarker from "../../components/titleMarker/TitleMarker";
 import ProductCard from "../../components/productCard/ProductCard";
-import styles from "./FreezerProductsSection.module.css";
+import styles from "./ProductSections.module.css";
 
-export default function FreezerProductsSection() {
+export default function GastronomicProductsSection() {
   return (
-    <Section id="freezer-products">
+    <Section id="gastronomic-products">
       <div className={styles.container}>
-        <TitleSection content="Productos en Cantidad para tu Familia" />
+        <TitleSection content="Productos para el Rubro Gastronómico" />
         <TitleMarker />
         <div className={styles.row}>
-          {dataFreezerProducts.map((product) => (
+          {dataGastronomicProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
