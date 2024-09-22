@@ -1,11 +1,33 @@
+.box {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-end;
+}
+
 .logoImage {
   width: 70px;
   height: auto;
   filter: opacity(80%);
 }
 
+.logoText {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  opacity: .9;
+  font-style: italic;
+}
+
 @media screen and (max-width: 574px) {
+  .box {
+    gap: 1rem;
+  }
+
   .logoImage {
     width: 50px;
+  }
+
+  .logoText {
+    font-size: 1.3rem;
   }
 }
