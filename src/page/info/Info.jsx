@@ -1,7 +1,7 @@
 import Section from "../../components/section/Section";
-import styles from "./InfoSection.module.css";
+import styles from "./Info.module.css";
 
-export default function InfoSection() {
+export default function Info() {
   return (
     <Section>
       <div className={styles.container}>

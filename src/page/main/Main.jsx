@@ -1,7 +1,7 @@
 import MenuButton from "../../components/buttons/menuButton/MenuButton";
 
 import Hero from "../hero/Hero";
-import InfoSection from "../infoSection/InfoSection";
+import Info from "../info/Info";
 
 import ComboProductsSection from "../comboProductsSection/ComboProductsSection";
 import FreezerProductsSection from "../freezerProductsSection/FreezerProductsSection";
@@ -16,7 +16,7 @@ export default function Main() {
     <main>
       <MenuButton />
       <Hero />
-      <InfoSection />
+      <Info />
       <ComboProductsSection />
       <FreezerProductsSection />
       <IndividualProductsSection />
