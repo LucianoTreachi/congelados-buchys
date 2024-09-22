@@ -36,6 +36,7 @@
   font-size: 8rem;
   font-weight: 700;
   color: #a8e259;
+  text-transform: uppercase;
   text-shadow: -2px 0px 3px rgba(0, 0, 0, 0.62);
   line-height: 1.1;
   letter-spacing: -0.02em;
@@ -47,6 +48,17 @@
   color: var(--white);
   margin-top: 2rem;
   width: 70%;
+}
+
+.tertiaryTitle {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: var(--white);
+  opacity: .8;
+  margin-top: 2.2rem;
+  width: 50%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .paragraph {
@@ -72,11 +84,7 @@
 
 @media screen and (max-width: 574px) {
   .section {
-    padding: 0 2rem 8rem;
-  }
-
-  .container {
-    padding: 8rem 0 0;
+    padding: 8rem 2rem;
   }
 
   .meatImage {
@@ -93,4 +101,11 @@
     width: 90%;
   }
 
+  .tertiaryTitle {
+    font-size: 1.8rem;
+    font-weight: 300;
+    opacity: .8;
+    margin-top: 2.2rem;
+    width: 90%;
+  }
 }
