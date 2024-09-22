@@ -1,8 +1,8 @@
-import burgerImage from "../../assets/burger.png";
-import meatImage from "../../assets/meat.png";
-import styles from "./Hero.module.css";
+import burgerImage from "../../../../assets/burger.png";
+import meatImage from "../../../../assets/meat.png";
+import styles from "./HeroSection.module.css";
 
-export default function Hero() {
+export default function HeroSection() {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
