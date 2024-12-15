@@ -6,16 +6,18 @@
 
 [![Captura de pantalla del proyecto](https://i.postimg.cc/MGXrMs8m/website.jpg)](https://postimg.cc/67JhFfq8)
 
-## Explora el sitio web
-
-Accede aquí → [Congelados Buchys](https://congeladosbuchys.com.ar/)
-
 ## Tecnologías utilizadas
 
 - **Vite:** Herramienta de construcción rápida para proyectos modernos.
+
 - **React 18:** Biblioteca para construir interfaces de usuario interactivas.
+
 - **CSS Modules:** Estilización de forma modular y encapsulada.
 - **Cloudinary:** Alojamiento y gestión de imágenes.
+
+## Explora la página web
+
+Accede aquí → [Congelados Buchys](https://congeladosbuchys.com.ar/)
 
 ## Desarrollado por
 
