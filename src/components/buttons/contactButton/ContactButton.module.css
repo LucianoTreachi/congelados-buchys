@@ -20,8 +20,8 @@
 }
 
 .arrow {
-  width: 20px;
-  height: 20px;
+  width: 2rem;
+  height: 2rem;
   fill: var(--white);
   transition: var(--transition);
 }
