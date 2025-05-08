@@ -1,6 +1,6 @@
 .containerMenu {
   position: fixed;
-  bottom: 3rem;
+  bottom: 2rem;
   right: 2rem;
   z-index: 999;
   display: flex;
@@ -53,7 +53,8 @@
   background: #e6fad6;
 }
 
-@media screen and (max-width: 574px) {
+/* 576px */
+@media (max-width: 36em) {
   .containerMenu {
     right: 0;
   }

@@ -18,7 +18,8 @@
   font-style: italic;
 }
 
-@media screen and (max-width: 574px) {
+/* 576px */
+@media (max-width: 36em) {
   .box {
     gap: 1rem;
   }

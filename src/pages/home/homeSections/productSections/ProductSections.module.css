@@ -10,7 +10,8 @@
   gap: 6rem;
 }
 
-@media screen and (max-width: 820px) {
+/* 864px */
+@media (max-width: 54em) {
   .row {
     grid-template-columns: 1fr;
   }

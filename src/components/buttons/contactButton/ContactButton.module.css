@@ -30,13 +30,15 @@
   transform: translateX(5px);
 }
 
-@media screen and (max-width: 885px) {
+/* 864px */
+@media (max-width: 54em) {
   .button {
     padding: 2rem 1.6rem;
   }
 }
 
-@media screen and (max-width: 574px) {
+/* 576px */
+@media (max-width: 36em) {
   .button {
     font-size: 1.7rem;
     width: 100%;

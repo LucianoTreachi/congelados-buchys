@@ -72,7 +72,8 @@
   border-radius: var(--border-radius);
 }
 
-@media screen and (max-width: 1074px) {
+/* 1080px */
+@media (max-width: 67.5rem) {
   .primaryTitle {
     font-size: 7rem;
   }
@@ -82,7 +83,8 @@
   }
 }
 
-@media screen and (max-width: 574px) {
+/* 576px */
+@media (max-width: 36em) {
   .section {
     padding: 8rem 2rem;
   }
