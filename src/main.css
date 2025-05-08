@@ -68,7 +68,7 @@ select {
 
 p {
   font-size: 1.7rem;
-  line-height: 1.4em;
+  line-height: 1.4;
   text-wrap: balance;
   opacity: .9;
 }
